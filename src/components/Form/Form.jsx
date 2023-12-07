@@ -28,7 +28,6 @@ export class Form extends Component {
               type="text"
               name="name"
               placeholder="Oleksandr Korniichuk"
-              pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
               required
               onChange={this.formChange}
             />
